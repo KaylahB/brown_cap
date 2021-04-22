@@ -2,22 +2,22 @@
 
 header{
 	width: 100%;
-	background: rgb(9,23,46);
-background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+	background: #A56A33;
 	position: fixed;
 	top:0;
 	z-index: 1000;
 	padding: 15px 10px 8px 0;
 }
 .logo{
-	width:400px;
-	height:400px;
+	width:300px;
+	height:300px;
 	position:fixed;
 	float :left;
-	margin-top:0px;
-	background: url("../images/logo-type4.svg")no-repeat;
+	margin-top:-10px;
+	background: url("../images/EDF_logo_.svg")no-repeat;
 	
 }
+
 
 nav{
 	
@@ -40,7 +40,7 @@ nav li {
 	
 }
 nav li a:link{
-	color:#B0C8E3;
+	color:#ffffff;
 	text-decoration:none;
 }
 nav li a:visited{
@@ -68,9 +68,6 @@ nav li a:active{
 }
 	
 /*hero image*/
-
-
-	
 
 
 .hero-image{
@@ -103,7 +100,7 @@ img{
 .hero-headline{
 	text-align: center;
 	color: rgb(255, 255, 255);
-	margin-top: -20%;
+	margin-top:0%;
 	
 	
 }
@@ -111,27 +108,28 @@ img{
 /*introduction*/
 
 /*about us*/
-.about{
+
+.about-us{
 	width: 100%;
 	padding: 100px;
-background: rgb(34,93,157);
-background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
+background:#A56A33;
+
 }
 
-.about{
+.about-us{
 	width: 100%;
 	padding: 100px 0 100px 0;
-	background-color:#efefef;
+	background-color:#47715B;
 	
 }
 
-.about img{
+.about-us img{
 	border-radius:0%;
 	margin-top:0;
 	padding-bottom: 20px;
 } 
 
-.about-head{
+.about-us-head{
 	text-align: center;
 	margin-bottom:3px;
 	margin-top:0;
@@ -141,14 +139,14 @@ background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
 .culture{
 	width: 100%;
 	padding: 100px;
-background: rgb(9,23,46);
-background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+background: #A56A33;
+
 }
 
 .culture{
 	width: 100%;
 	padding: 100px 0 100px 0;
-	background-color:#efefef;
+	background-color:#A56A33;
 	
 } 
 
@@ -157,35 +155,64 @@ background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
 	padding-bottom: 20px;
 }
  
-.history{
+
+
+.getinvolved{
 	width: 100%;
 	padding: 100px 0 100px 0;
-background: rgb(34,93,157);
-background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
+background: #47715B;
+
 }
 
-.history{
+.getinvolved{
 	width: 100%;
 	padding: 100px 0 100px 0;
-	background-color:#efefef;
+	background-color:#47715B;
 	
 }
  
-.history img{
+.getinvolved img{
 	border-radius: 0%;
 	padding-bottom: 20px;
 }
+
+
+
+
+
+.ourwork{
+	
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background:#47715B;
+	padding-bottom:20px;
+	padding-top: -40px;
+}
+.ourwork img{
+	border-radius: 0%;
+	padding-top:-20%;
+	padding-bottom:40%;
+}
+
+.ourwork-copy{
+	margin-bottom: 20px;
+	margin-left:14px;
+	
+}
+
+
+
 .cuisine{
 	width: 100%;
 	padding: 100px 0 100px 0;
-background: rgb(9,23,46);
-background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+background:#A56A33;
+
 }
 
 .cuisine{
 	width: 100%;
 	padding: 100px 0 100px 0;
-	background-color:#efefef;
+	background-color:#A56A33;
 	padding-bottom:-20px;
 	
 }
@@ -250,26 +277,25 @@ background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
 
 /*Customer Testimonials*/
 
-.testimonials {
+.our-people {
 	width:100%;
 	padding:100px 0;
-	background: rgb(34,93,157);
-background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
+background: #D39147;
 }
 	
 
-.testimonials img{
+.our-people img{
 	width:200px;
 	float:center;
 	margin-left:50px;
 	margin-bottom:10px;
-	border-radius:0%;
+	border-radius:60%;
 	padding-bottom:-40px;
 	
 }
 
-.testimonial-txt{
-float: left;
+.our-people-txt{
+float: center;
 margin-left:94px;	
 width:300px;
 
@@ -277,7 +303,7 @@ font-weight: bold;
 }
 
 
-.testimonial-copy{
+.our-people-copy{
 	margin-left:10px;
 	width:300px;
 	text-align:left;
@@ -315,8 +341,8 @@ font-weight: bold;
 .contact{
 	width: 100%;
 	padding: 100px 0;
-	background: rgb(9,23,46);
-background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+	background: #D39147;
+
 	
 }
 
@@ -353,9 +379,9 @@ footer{
 	width: 100%;
 	padding: 50px 0 50px 0;
 	text-align: center;
-	background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,23,46,1) 0%);
+	background:#A56A33;
 }
+
 
 footer a :link{
 	color:#959595;
@@ -390,7 +416,7 @@ footer img{
 
 .copyright{
 	width: 100%;
-	color:#959595;
+	color:#ffffff;
 	float:inherit;
 }
 .copyright p {
@@ -416,7 +442,7 @@ footer img{
 	height: 40px;
 	position:absolute;
 	float :center;
-	margin-top: 40px;
+	margin-top: -40px;
 	
 }
 /*desktopand and laptops*/
