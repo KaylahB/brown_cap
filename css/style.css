@@ -1,0 +1,446 @@
+/* header */
+
+header{
+	width: 100%;
+	background: rgb(9,23,46);
+background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+	position: fixed;
+	top:0;
+	z-index: 1000;
+	padding: 15px 10px 8px 0;
+}
+.logo{
+	width:400px;
+	height:400px;
+	position:fixed;
+	float :left;
+	margin-top:0px;
+	background: url("../images/logo-type4.svg")no-repeat;
+	
+}
+
+nav{
+	
+	float:right;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: right;
+}
+
+nav li {
+	display: inline-block;
+	font-size: .8em;
+	font-weight:600;
+	text-transform :uppercase;
+	letter-spacing:.1em;
+	padding-left: 20px;
+	cursor: pointer ;
+	
+}
+nav li a:link{
+	color:#B0C8E3;
+	text-decoration:none;
+}
+nav li a:visited{
+	color:#B0C8E3;
+	
+	}
+	nav li a:hover{
+	color:#d87e09;
+ 	text-decoration: none;
+	}
+	
+nav li a:active{
+	color:#B0C8E3;
+}
+
+.section-head{
+	text-align: center;
+	margin-bottom:45px;
+	margin-top:0;
+}
+.section-copy{
+	text-align: center;
+	font-size:1.2em;
+	
+}
+	
+/*hero image*/
+
+
+	
+
+
+.hero-image{
+	width: 100%;
+	max-height:2000px;
+	overflow: hidden;
+	
+}
+img{
+	
+	width:100%;
+	display: block;
+	
+	
+}
+
+.hero-overlay{
+	position:absolute;
+	top:600px;
+	width: 940px;
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	overflow: visible;
+	
+	
+}
+
+
+.hero-headline{
+	text-align: center;
+	color: rgb(255, 255, 255);
+	margin-top: -20%;
+	
+	
+}
+
+/*introduction*/
+
+/*about us*/
+.about{
+	width: 100%;
+	padding: 100px;
+background: rgb(34,93,157);
+background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
+}
+
+.about{
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color:#efefef;
+	
+}
+
+.about img{
+	border-radius:0%;
+	margin-top:0;
+	padding-bottom: 20px;
+} 
+
+.about-head{
+	text-align: center;
+	margin-bottom:3px;
+	margin-top:0;
+} 
+
+ 
+.culture{
+	width: 100%;
+	padding: 100px;
+background: rgb(9,23,46);
+background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+}
+
+.culture{
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color:#efefef;
+	
+} 
+
+.culture img{
+	border-radius: 0%;
+	padding-bottom: 20px;
+}
+ 
+.history{
+	width: 100%;
+	padding: 100px 0 100px 0;
+background: rgb(34,93,157);
+background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
+}
+
+.history{
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color:#efefef;
+	
+}
+ 
+.history img{
+	border-radius: 0%;
+	padding-bottom: 20px;
+}
+.cuisine{
+	width: 100%;
+	padding: 100px 0 100px 0;
+background: rgb(9,23,46);
+background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+}
+
+.cuisine{
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color:#efefef;
+	padding-bottom:-20px;
+	
+}
+.cuisine img{
+	border-radius: 0%;
+	padding-bottom: 20px;
+}
+
+.cuisine-copy{
+	margin-bottom: 20px;
+	margin-left:14px;
+	
+}
+
+/*features*/
+
+.features{
+	width:100%;
+	padding: 100px 0;
+	background: rgb(9,23,46);
+background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+	
+}
+
+.features-subhead{
+	text-align:center;
+	margin-left: 60px;
+
+	 
+	
+}
+
+.features-copy{
+	margin-bottom: 20px;
+	margin-left:14px;
+	text-align: center;	
+}
+
+
+.accommodations{
+	
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background: rgb(34,93,157);
+background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
+	padding-bottom:20px;
+	padding-top: 40px;
+}
+.accommodations img{
+	border-radius: 0%;
+	padding-top:20%;
+	padding-bottom:40%;
+}
+
+.accommodations-copy{
+	margin-bottom: 20px;
+	margin-left:14px;
+	
+}
+
+
+
+/*Customer Testimonials*/
+
+.testimonials {
+	width:100%;
+	padding:100px 0;
+	background: rgb(34,93,157);
+background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
+}
+	
+
+.testimonials img{
+	width:200px;
+	float:center;
+	margin-left:50px;
+	margin-bottom:10px;
+	border-radius:0%;
+	padding-bottom:-40px;
+	
+}
+
+.testimonial-txt{
+float: left;
+margin-left:94px;	
+width:300px;
+
+font-weight: bold;
+}
+
+
+.testimonial-copy{
+	margin-left:10px;
+	width:300px;
+	text-align:left;
+
+	
+}
+
+
+
+
+.fa-github,
+.fa-html5,
+.fa-wrench,
+.fa-file-pdf,
+.fa-codepen{
+	color:#696969;
+	font-size: 2.5em;
+	margin-bottom:10px;
+	margin-top: 20px;
+}
+
+.fa-css3{
+	color:#696969;
+	font-size: 2.3em;
+	margin-bottom:10px;
+	margin-top: 20px;
+	
+	
+}
+
+
+
+/*contact us*/
+
+.contact{
+	width: 100%;
+	padding: 100px 0;
+	background: rgb(9,23,46);
+background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+	
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form select{
+	width:360px;
+	height:35px;
+	margin-bottom:25px;
+	padding: 5px 5px 5px 10px;
+	border: 1px solid #dadada;
+	color:#888888;
+	font-weight:100;
+	border-radius: 0px;
+}
+
+.contact-form textarea {
+	height:200px;
+} 
+
+.contact img{
+	border-radius: 0%;
+}
+
+.city{
+	text-transform:uppercase;
+	font-weight:900;
+}
+
+/*footer*/
+
+footer{
+	width: 100%;
+	padding: 50px 0 50px 0;
+	text-align: center;
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,23,46,1) 0%);
+}
+
+footer a :link{
+	color:#959595;
+	text-decoration:none;
+	
+}
+
+footer a :visited{
+	color:#959595;
+	text-decoration:none;
+	
+}
+
+footer a :hover{
+	color:#ffffff;
+	text-decoration:none;
+	
+}
+
+footer a :active{
+	color:#ffffff;
+	text-decoration:none;
+	
+}
+
+footer img{
+	height:40px;
+	width:40px;
+	padding:20px;
+	
+}
+
+.copyright{
+	width: 100%;
+	color:#959595;
+	float:inherit;
+}
+.copyright p {
+	margin-bottom: 0;
+}
+.fa-unesco,
+.fa-snapchat,
+.fa-twitter,
+.fa-facebook-f{
+	font-size: 2em;
+	margin: 20px 5px 0 5px;
+	color: #B7D8FF;
+}
+.fa-unesco:hover,
+.fa-snapchat:hover,
+.fa-twitter:hover,
+.fa-facebook-f:hover{
+	color: #ffffff;
+}
+
+.logo-un{
+	width: 100px;
+	height: 40px;
+	position:absolute;
+	float :center;
+	margin-top: 40px;
+	
+}
+/*desktopand and laptops*/
+
+@media only screen and (min-width : 1224px) {
+	
+	video{
+		width: 100%;
+		
+	}
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
