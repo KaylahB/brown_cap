@@ -2,9 +2,8 @@
 /*basic styles */
 
 	body {
-		
+		font-family: 'Hind', sans-serif;
 		color:#E6F2FF;
-		font-family:'Raleway', sans-serif;
 		font-style : normal;
 		font-weight:300;
 		line-height: 1.7em;
@@ -16,32 +15,39 @@
 
 /* typography*/
 p{
+	
 	font-size: lem;
 	margin: 0 0 20px 0;
+	font-family: 'Lusitana', serif;
+	font-style : normal;
+		font-weight:300;
+		line-height: 1.7em;
+		text-align:left;
+        font-size: 100%;
 	}
 h1{ 
-	font-family: 'Raleway', sans-serif;
-	font-weight:500;
+	font-family: 'Hind', sans-serif;
+	font-weight:300;
 	font-size:.250em;
 	line-height:1.1;
 }
 h2{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Hind', sans-serif;
     font-weight:500;
 	font-size:2.500em;
 	line-height:1.1;
 }
 
 h3{
-	font-family: 'Raleway', sans-serif;
-    font-weight:500;
+	font-family: 'Hind', sans-serif;
+    font-weight:300;
 	font-size:1.500em;
 	line-height:1.1;
 	
 }
 h4{
-	font-family: 'Raleway', sans-serif;
-    font-weight:900;
+	font-family: 'Hind', sans-serif;
+    font-weight:300;
 	font-size:2em;
 	line-height:1.1;
 
@@ -52,8 +58,9 @@ h5{
 	font-size:1.2em;
 	line-height:1.1;
 }
-h6{font-family:'Raleway', sans-serif;
-    font-weight:500;
+h6{
+	font-family: 'Hind', sans-serif;
+    font-weight:300;
 	font-size:1em;
 	line-height:1.1;
 }
