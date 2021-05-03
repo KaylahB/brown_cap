@@ -108,6 +108,40 @@ img{
 /*introduction*/
 
 /*about us*/
+.album {
+	width:100%;
+	padding:100px 0;
+background: #D39147;
+
+}
+	
+
+.album img{
+	width:200px;
+	float:center;
+	margin-left:50px;
+	margin-bottom:10px;
+	border-radius:0%;
+	padding-bottom:-40px;
+	
+}
+
+.album-txt{
+float: center;
+margin-left:94px;	
+width:300px;
+
+font-weight: bold;
+}
+
+
+.album-copy{
+	margin-left:10px;
+	width:300px;
+	text-align:center;
+
+	
+}
 
 .about-us{
 	width: 100%;
@@ -355,8 +389,8 @@ font-weight: bold;
 	height:35px;
 	margin-bottom:25px;
 	padding: 5px 5px 5px 10px;
-	border: 1px solid #dadada;
-	color:#888888;
+	border: 1px solid rgb(185, 127, 0);;
+	color:#d1a000;
 	font-weight:100;
 	border-radius: 0px;
 }
@@ -372,6 +406,7 @@ font-weight: bold;
 .city{
 	text-transform:uppercase;
 	font-weight:900;
+	color:#D39147;
 }
 
 /*footer*/
@@ -381,8 +416,8 @@ footer{
 	padding: 50px 0 50px 0;
 	text-align: center;
 	background:#A56A33;
-}
 
+}
 
 footer a :link{
 	color:#959595;
@@ -408,44 +443,39 @@ footer a :active{
 	
 }
 
-footer img{
-	height:40px;
-	width:40px;
-	padding:20px;
-	
-}
+
+
 
 .copyright{
 	width: 100%;
 	color:#ffffff;
 	float:inherit;
+	text-align: center;
+
 }
 .copyright p {
 	margin-bottom: 0;
+	text-align: center;
 }
-.fa-unesco,
+
 .fa-snapchat,
 .fa-twitter,
 .fa-facebook-f{
 	font-size: 2em;
 	margin: 20px 5px 0 5px;
 	color: #B7D8FF;
+	text-align: left;
+	
 }
 .fa-unesco:hover,
 .fa-snapchat:hover,
 .fa-twitter:hover,
 .fa-facebook-f:hover{
 	color: #ffffff;
+	text-align: left;
 }
 
-.logo-un{
-	width: 100px;
-	height: 40px;
-	position:absolute;
-	float :center;
-	margin-top: -40px;
-	
-}
+
 /*desktopand and laptops*/
 
 @media only screen and (min-width : 1224px) {
