@@ -207,9 +207,14 @@ background: #47715B;
 }
  
 .getinvolved img{
-	border-radius: 0%;
-	padding-bottom: 20px;
-}
+		max-width:10%;
+		max-height:10%;
+		padding-bottom: -50px;
+		margin-left: 60%;
+		margin-top: -9%;
+	  }
+
+
 
 
 
@@ -316,6 +321,7 @@ background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
 	width:100%;
 	padding:100px 0;
 background: #D39147;
+text-align: center;
 }
 	
 
@@ -330,18 +336,18 @@ background: #D39147;
 }
 
 .our-people-txt{
-float: center;
-margin-left:94px;	
+float:center;
+margin-right:94px;	
 width:300px;
-
 font-weight: bold;
+text-align: center;
 }
 
 
 .our-people-copy{
-	margin-left:10px;
+	margin:10px;
 	width:300px;
-	text-align:left;
+	text-align: center;
 
 	
 }
